@@ -1,0 +1,149 @@
+p {
+	margin: 0;
+}
+.panel-clock {
+	padding: 0;
+	margin-top: 80px;
+	border: 30px solid rgba(51,122,183,0.8);
+	border-radius: 20px;
+	font-family: Open Sans, Arial, sans-serif;
+}
+
+.display{
+	padding-left: 36px;
+	font-size: 100px;
+	color:rgb(91,192,222);
+    font-family: 'Orbitron', sans-serif;
+    opacity: 0.4;
+    line-height: 1.2;
+    letter-spacing: 0.00000005em;
+
+}
+.timers {
+	display: inline-block;
+	float: left;
+	width: 83px;
+}
+
+#timer3 {
+	width: 23px;
+}
+
+.showmodel {
+	color:rgb(91,192,222);
+	font-size: 24px;
+	font-family: 'Orbitron', sans-serif;
+	letter-spacing: 4px;
+}
+
+.timer-btn {
+	background: #fff;
+	box-shadow: none;
+	border-style: none;
+	height: auto;
+	outline: none;
+	cursor: default;
+}
+
+.timer-btn:active {
+	border-style: none;
+	box-shadow: none;
+	outline: none;
+	background: #fff;
+}
+
+.panel-control {
+	padding: 0 80px 40px 80px;
+	margin-top: 20px;
+}
+
+.text-center {
+	font-size: 16px;
+	color: rgb(51,122,183);
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 26px;
+}
+
+.col-md-2 {
+	padding: 0 9px 0 9px;
+}
+
+.btn-control {
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background: rgb(91,192,222);
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	font-weight: bold;
+	box-shadow: none;
+	border-style: none;
+	outline: none;
+}
+
+.time-set {
+	height: 34px;
+	padding: 6px 0 6px 0;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(51,122,183);
+}
+
+.panel-reset {
+	padding: 0 60px 0 60px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.btn-reset, .btn-start {
+	margin: 0 auto;
+	width: 120px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Open Sans, Arial, sans-serif;
+	background: #ff9fa8;
+	box-shadow: 0px 4px #ff7c87;
+	color: #fff;
+}
+
+.btn-reset:hover, .btn-start:hover {
+	background: #f68991;
+	box-shadow: 0px 4px #d3545d;
+	color: white;
+}
+
+.btn-reset:active, .btn-start:active  {
+	position: relative;
+	top: 4px;
+	box-shadow: none;
+}
+
+.btn-control:hover {
+	background: rgb(51,122,183);
+	color: #fff;
+}
+
+
+path {
+  fill-rule: evenodd;
+  stroke: #333;
+  stroke-width: 2px;
+}
+
+.sun path {
+  fill: #6baed6;
+}
+
+.planet path {
+  fill: #9ecae1;
+}
+
+.annulus path {
+  fill: #c6dbef;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="A Pomodoro Clock">
+    <meta name="author" content="Farewing">
+	<title>A Pomodoro Clock</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/d3.min.js"></script>
+	<script type="text/javascript" src="js/01.js"></script>
+
+	<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300' rel='stylesheet' type='text/css'>
+	
+</head>
+
+<body>
+<div class="container">
+	<div class="row">
+	<div class="col-md-10 col-md-offset-1 panel-clock">
+		<div class="row">
+			<div class="col-md-6 gear">
+				
+			</div>
+			<div class="col-md-6">				
+				<div class="row panel-time">
+					<div class="col-md-12 timer">
+						<button class="btn btn-block timer-btn">
+							<div class="showmodel"><span id="show"><br></span></div>
+							<div class="display">
+								<span id="timer">
+									<span class="timers" id="timer1">5</span>
+									<span class="timers" id="timer2">0</span>
+									<span class="timers" id="timer3">:</span>
+									<span class="timers" id="timer4">4</span>
+									<span class="timers" id="timer5">8</span>
+								</span>
+							</div>
+						</button>
+					</div>	
+				</div>	
+				<div class="row panel-control">
+					<div class="col-md-6">
+						<p class="text-center">Break length</p>
+					</div>		
+					<div class="col-md-6">
+						<p class="text-center">Timing length</p>
+					</div>			
+					<div class="col-md-2">
+						<button class="btn btn-block btn-control" id="deBreak">-</button>
+					</div>	
+					<div class="col-md-2 time-set">
+						<p class="breakLength"><span id="breakLength"><span id="breakTime">5</span> Min</span></p>
+					</div>
+					<div class="col-md-2">
+						<button class="btn btn-block btn-control" id="inBreak">+</button>
+					</div>
+					<div class="col-md-2">
+						<button class="btn btn-block btn-control" id="deTime">-</button>
+					</div>	
+					<div class="col-md-2 time-set">
+						<p class="pomLength"><span id="pomLength"><span id="workTime">25</span> Min</span></p>
+					</div>
+					<div class="col-md-2">
+						<button class="btn btn-block btn-control" id="inTime">+</button>
+					</div>
+				</div>			
+				<div class="row panel-reset">
+					<div class="col-md-6">
+						<button class="btn btn-start" id="start">Start</button>
+					</div>
+					<div class="col-md-6">
+						<button class="btn btn-reset" id="reset">Reset</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>	
+</div>
+</body>
+</html>
