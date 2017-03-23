@@ -40,8 +40,8 @@ $("a,input,button").focus(function(){this.blur()});
 
 var flag = 0,
 	pre = 1,
-	workDuration = 5,
-	breakDuration = 3;
+	workDuration = 1500,
+	breakDuration = 300;
 var stopDuration = workDuration;
 
 d3.timer(function() {
